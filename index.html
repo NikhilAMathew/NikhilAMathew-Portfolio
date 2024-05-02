@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Nikhil A Mathew</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#papers" class="nav__link">Papers</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>Hello</span><br>w<i class="fa fa-globe" style="font-size:5rem"></i>rld!</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/profile.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/profile.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Nikhil A Mathew</h2>
+                        <span class="about__profession">I live in Trivandrum, where I design the future.</span>
+                        <p class="about__text">Currently, I'm a student pursuing Master of Computer Applications. 
+                            I enjoy solving complex problems and learning new skills. 
+                            I am willing about using new technologies that follows best practices and industry standards. 
+                            I am always looking for new challenges and opportunities to grow as a developer.</p>
+
+                        <div class="about__social">
+                            <p>You can connect with me </p>
+                            <a href="https://linkedin.com/in/nikhil-a-mathew " class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/NikhilAMathew " class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">HTML</span>
+                        <span class="skills__name">CSS</span>
+                        <span class="skills__name">Bootstrap</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">Flask</span>
+                        <span class="skills__name">MongoDB</span>
+                        <span class="skills__name">C</span>
+                        
+                        <h3 class="skills__subtitle">Tools</h3>
+                        <span class="skills__name">VSCode</span>
+                        <span class="skills__name">PyCharm</span>
+                        <span class="skills__name">IntelliJ</span>
+                        <span class="skills__name">Jupyter</span>
+                        <span class="skills__name">Colab</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/project1.png" alt="">
+                        <p>FindPhish: Phishing Detection System</p>
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/NikhilAMathew/Phishing" class="portfolio__link-name">
+                                View details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project3.png" alt="">
+                        <p>Pest Detection System using ML and AI</p>
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/NikhilAMathew/Pest-Classification-and-Detection-System-using-Deep-Learning" class="portfolio__link-name">
+                                View details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project4.png" alt="">
+                        <p>Agro Culture</p>
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/NikhilAMathew/Agro-Culture" class="portfolio__link-name">
+                                View details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project5.png" alt="">
+                        <p>Health Office Management System</p>
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">
+                                View details
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="portfolio__img">
+                        <img src="assets/img/project6.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">
+                                View details
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+
+            <!--===== Presentation =====-->
+            <section class="papers section" id="papers">
+                <h2 class="section-title">Papers</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/paper1.png" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">
+                                View details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/paper2.png" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">
+                                View details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">xxxxxxxxxxxxxxx@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 XXXXXXXXXX</span>
+
+                        <h3 class="contact__subtitle">ADDRESS</h3>
+                        <span class="contact__text">Trivandrum</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                        <input type="submit" value="Send" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__text">Nikhil A Mathew @ 2024</p>
+        </footer>
+
+        <a id="top-button">Go to the top<i class='bx bx-down-arrow-alt' ></i></a>
+        
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
